@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -23,7 +25,6 @@ header {
 h1 {
     color: #021732;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     display: inline-block;
     vertical-align: middle;
@@ -39,7 +40,7 @@ body {
 .box {
     background-color: rgb(255, 255, 255);
     width: 1200px;
-    height: 650px;
+    height: 550px;
     margin: 75px auto;
     border-radius: 10px; 
 } 
@@ -53,23 +54,37 @@ body {
 .button-1 {
     padding: 5px 10px;
     border-radius: 7px;
-    border-color: #47ADF1;
     background-color: #47ADF1;
     color:#f6f8f9;
-    font-weight: 600;
+    border: 1px solid #47ADF1;
 }
 
 .button-2 {
     padding: 5px 10px;
     border-radius: 7px;
-    border-color: #f6f8f9;
     background-color: transparent;
-    color: #f6f8f9;
-    font-weight: 600;
+    color: #d6d7d7;
+    border: 2px solid  #d6d7d7
 }
 
 hr {
     height: 2px;
     background-color: #f6f8f9;
     border: none; 
+}
+
+.container {
+    padding: 10px 50px;
+    color: #3c3c3c;
+}
+
+p {
+    font-weight: 400;
+    line-height: 35px;
+    /* padding: 5px 0; */
+}
+
+h3 {
+    font-weight: bolder;
+    padding-top: 20px;
 }
