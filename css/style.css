@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* intestazione */
+header {
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    line-height: 90px;
+    /* line-height: 100%; */
+    /* align-items: center; */
+}
+
+.header-img {
+    height: 60px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #021732;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px; 
+}
+
+
+/* corpo */
+body {
+    background-color:#f6f8f9
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 650px;
+    margin: 75px auto;
+    border-radius: 10px; 
+} 
+/* mettevo .container e non andava !!! */
+
+.section-top {
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.button-1 {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border-color: #47ADF1;
+    background-color: #47ADF1;
+    color:#f6f8f9;
+    font-weight: 600;
+}
+
+.button-2 {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border-color: #f6f8f9;
+    background-color: transparent;
+    color: #f6f8f9;
+    font-weight: 600;
+}
+
+hr {
+    height: 2px;
+    background-color: #f6f8f9;
+    border: none; 
+}
